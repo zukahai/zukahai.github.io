@@ -1,1 +1,1 @@
-[![HaiZuka](https://github.com/zukahai/zukahai/blob/main/Images/HaiZuka.gif)](https://www.facebook.com/algorithmcpp)
+![HaiZuka](https://github.com/zukahai/zukahai.github.io/blob/master/img/bg-img/HaiZuka.png)
