@@ -7,14 +7,9 @@
 
 /* :: 2.0 Import All CSS */
 
-@import url(css/bootstrap.min.css);
-@import url(css/classy-nav.css);
-@import url(css/owl.carousel.min.css);
-@import url(css/animate.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
-@import url(css/audioplayer.css);
-@import url(css/one-music-icon.css);
+@import url(bootstrap.min.css);
+@import url(classy-nav.css);
+@import url(font-awesome.min.css);
 
 /* :: 3.0 Base CSS */
 
@@ -501,7 +496,7 @@ img {
     z-index: 1000;
 }
 
-.header-area .oneMusic-main-menu {
+.header-area .oneGame-main-menu {
     position: relative;
     width: 100%;
     height: 85px;
@@ -509,87 +504,87 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu {
+    .header-area .oneGame-main-menu {
         height: 70px;
     }
 }
 
-.header-area .oneMusic-main-menu .classy-nav-container {
+.header-area .oneGame-main-menu .classy-nav-container {
     background-color: transparent;
 }
 
-.header-area .oneMusic-main-menu .classy-navbar {
+.header-area .oneGame-main-menu .classy-navbar {
     background-color: transparent;
     height: 85px;
     padding: 0;
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu .classy-navbar {
+    .header-area .oneGame-main-menu .classy-navbar {
         height: 70px;
     }
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li a {
     font-weight: 700;
     text-transform: capitalize;
     color: #ffffff;
     font-size: 16px;
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:hover,
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:focus {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li a:hover,
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li a:focus {
     color: rgba(255, 255, 255, 0.7);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li a {
         background-color: #000000;
         border-bottom-color: rgba(255, 255, 255, 0.1);
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li a {
         background-color: #000000;
         border-bottom-color: rgba(255, 255, 255, 0.1);
     }
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li.megamenu-item>a::after,
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li.has-down>a::after {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li.megamenu-item>a::after,
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li.has-down>a::after {
     color: #ffffff;
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li.megamenu-item ul li>a::after,
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li.has-down ul li>a::after {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li.megamenu-item ul li>a::after,
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li.has-down ul li>a::after {
     color: #232323;
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li.megamenu-item ul li>a::after,
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li.has-down ul li>a::after {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li.megamenu-item ul li>a::after,
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li.has-down ul li>a::after {
         color: #ffffff;
     }
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li ul li a {
     color: #232323;
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a:hover,
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a:focus {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li ul li a:hover,
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li ul li a:focus {
     color: #888888;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li ul li a {
         padding: 0 15px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li ul li a {
         color: #ffffff;
         padding: 0 30px;
         border-bottom-color: rgba(255, 255, 255, 0.1);
@@ -597,55 +592,55 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li ul li a {
         color: #ffffff;
         padding: 0 30px;
         border-bottom-color: rgba(255, 255, 255, 0.1) !important;
     }
 }
 
-.header-area .oneMusic-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
+.header-area .oneGame-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
     border-bottom: 1px solid rgba(242, 244, 248, 0.7);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
         border-bottom-color: rgba(255, 255, 255, 0.1) !important;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
+    .header-area .oneGame-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
         border-bottom-color: rgba(255, 255, 255, 0.1) !important;
     }
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button {
+.header-area .oneGame-main-menu .login-register-cart-button {
     position: relative;
     z-index: 1;
     margin-left: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-area .oneMusic-main-menu .login-register-cart-button {
+    .header-area .oneGame-main-menu .login-register-cart-button {
         margin-left: 12px;
         margin-top: 15px;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .oneMusic-main-menu .login-register-cart-button {
+    .header-area .oneGame-main-menu .login-register-cart-button {
         margin-left: 12px;
         margin-top: 15px;
     }
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .login-register-btn {
+.header-area .oneGame-main-menu .login-register-cart-button .login-register-btn {
     position: relative;
     z-index: 10;
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .login-register-btn a {
+.header-area .oneGame-main-menu .login-register-cart-button .login-register-btn a {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     margin-bottom: 0;
@@ -656,17 +651,17 @@ img {
     line-height: 1;
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .login-register-btn a:hover,
-.header-area .oneMusic-main-menu .login-register-cart-button .login-register-btn a:focus {
+.header-area .oneGame-main-menu .login-register-cart-button .login-register-btn a:hover,
+.header-area .oneGame-main-menu .login-register-cart-button .login-register-btn a:focus {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .cart-btn {
+.header-area .oneGame-main-menu .login-register-cart-button .cart-btn {
     position: relative;
     z-index: 10;
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .cart-btn p {
+.header-area .oneGame-main-menu .login-register-cart-button .cart-btn p {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     margin-bottom: 0;
@@ -676,12 +671,12 @@ img {
     line-height: 1;
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .cart-btn p:hover,
-.header-area .oneMusic-main-menu .login-register-cart-button .cart-btn p:focus {
+.header-area .oneGame-main-menu .login-register-cart-button .cart-btn p:hover,
+.header-area .oneGame-main-menu .login-register-cart-button .cart-btn p:focus {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.header-area .oneMusic-main-menu .login-register-cart-button .cart-btn p .quantity {
+.header-area .oneGame-main-menu .login-register-cart-button .cart-btn p .quantity {
     width: 15px;
     height: 15px;
     border: 1px solid #fff;
@@ -699,7 +694,7 @@ img {
     text-align: center;
 }
 
-.header-area .is-sticky .oneMusic-main-menu {
+.header-area .is-sticky .oneGame-main-menu {
     position: fixed;
     width: 100%;
     height: 85px;
@@ -711,7 +706,7 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-    .header-area .is-sticky .oneMusic-main-menu {
+    .header-area .is-sticky .oneGame-main-menu {
         height: 70px;
     }
 }
