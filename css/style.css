@@ -1186,7 +1186,7 @@ img {
     background-color: transparent;
 }
 
-.single-album {
+.single-game {
     position: relative;
     z-index: 1;
     -webkit-transition-duration: 500ms;
@@ -1194,11 +1194,11 @@ img {
     margin-bottom: 30px;
 }
 
-.single-album img {
+.single-game img {
     width: 100%;
 }
 
-.single-album .album-info {
+.single-game .album-info {
     position: relative;
     z-index: 1;
     text-align: center;
@@ -1206,22 +1206,22 @@ img {
     padding-bottom: 15px;
 }
 
-.single-album .album-info h5 {
+.single-game .album-info h5 {
     font-size: 18px;
     margin-bottom: 0;
     text-transform: uppercase;
 }
 
-.single-album .album-info p {
+.single-game .album-info p {
     margin-bottom: 0;
 }
 
-.single-album:hover,
-.single-album:focus {
+.single-game:hover,
+.single-game:focus {
     box-shadow: 0 5px 70px 0 rgba(0, 0, 0, 0.15);
 }
 
-.single-album-area {
+.single-game-area {
     position: relative;
     z-index: 1;
     -webkit-transition-duration: 500ms;
@@ -1229,12 +1229,12 @@ img {
     margin-bottom: 30px;
 }
 
-.single-album-area .album-thumb {
+.single-game-area .album-thumb {
     position: relative;
     z-index: 1;
 }
 
-.single-album-area .album-thumb .album-price p {
+.single-game-area .album-thumb .album-price p {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -1246,7 +1246,7 @@ img {
     z-index: 20;
 }
 
-.single-album-area .album-thumb .play-icon a {
+.single-game-area .album-thumb .play-icon a {
     color: #fff;
     font-size: 50px;
     position: absolute;
@@ -1257,11 +1257,11 @@ img {
     transform: translate(-50%, -50%);
 }
 
-.single-album-area img {
+.single-game-area img {
     width: 100%;
 }
 
-.single-album-area .album-info {
+.single-game-area .album-info {
     display: block;
     position: relative;
     z-index: 1;
@@ -1269,13 +1269,13 @@ img {
     padding-bottom: 15px;
 }
 
-.single-album-area .album-info h5 {
+.single-game-area .album-info h5 {
     font-size: 18px;
     margin-bottom: 0;
     text-transform: uppercase;
 }
 
-.single-album-area .album-info p {
+.single-game-area .album-info p {
     margin-bottom: 0;
 }
 
@@ -1284,15 +1284,15 @@ img {
     z-index: 1;
 }
 
-.albums-slideshow .single-album {
+.albums-slideshow .single-game {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     margin-bottom: 0;
     border: 1px solid transparent;
 }
 
-.albums-slideshow .single-album:hover,
-.albums-slideshow .single-album:focus {
+.albums-slideshow .single-game:hover,
+.albums-slideshow .single-game:focus {
     border: 1px solid #000000;
     box-shadow: none;
     background-color: #f5f9fa;
